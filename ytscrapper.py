@@ -100,15 +100,3 @@ def get_channel_info(youtube, channel_id):
         print(f'An error occurred: {error}')
         return None
 
-
-
-# Function to format view count
-# Function to format view count
-# def format_view_count(count):
-#     count = float(count)  # Convert count to float
-#     if count >= 10**6:  # If count is in millions
-#         return f"{count / 10**6:.1f}M"  # Return count in millions with one decimal place
-#     elif count >= 10**3:  # If count is in thousands
-#         return f"{count / 10**3:.1f}K"  # Return count in thousands with one decimal place
-#     else:
-#         return str(count)
