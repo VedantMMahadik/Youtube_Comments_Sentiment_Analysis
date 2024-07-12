@@ -6,8 +6,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-# Load environment variables from .env file
-load_dotenv()
 # Replace with your own API key
 DEVELOPER_KEY = "YOUR_API_KEY"
 
