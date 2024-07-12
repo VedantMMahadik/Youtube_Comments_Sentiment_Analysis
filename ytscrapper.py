@@ -4,9 +4,7 @@ from collections import Counter
 from googleapiclient.errors import HttpError
 import warnings
 warnings.filterwarnings('ignore')
-from dotenv import load_dotenv
 
-import os
 
 # Load environment variables from .env file
 load_dotenv()
